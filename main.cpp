@@ -57,7 +57,7 @@ int main()
 
         printf("\n\nSolving on Gauss method\r\n");
         PryamoiHod(n, a, b);
-        printf("Forvard Gauss course\r\n");                         //Прямой ход
+        printf("Forvard Gauss course\r\n");                        
         printf("Matrix A:\r\n");
         for(int i = 0; i < n; i++)
             ShowVector(n, a[i]);
